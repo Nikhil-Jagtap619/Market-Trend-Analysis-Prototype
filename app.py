@@ -59,7 +59,7 @@ def get_sentiment(text):
 
 def get_wordCloud(text):
    # Create a WordCloud object
-   wordcloud = WordCloud(width=800, height=400, background_color='white', stopwords=STOPWORDS, font_path=font_path).generate(text)
+   wordcloud = WordCloud(width=800, height=400, background_color='white', stopwords=STOPWORDS).generate(text)
    return wordcloud
 
 
