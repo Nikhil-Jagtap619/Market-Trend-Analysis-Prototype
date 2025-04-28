@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # Topic Modeling (using Latent Dirichlet Allocation - LDA)
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
-font_path = "D:\\Sem 2\\final_project\prototype\\font\\Oswald-VariableFont_wght.ttf"
+font_path = "https://github.com/Nikhil-Jagtap619/Market-Trend-Analysis-Prototype/blob/main/font/Oswald-VariableFont_wght.ttf"
 
 
 
